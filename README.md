@@ -1,1 +1,1 @@
-# RaspberryPI-Qrcode-Scanner
+# RaspberryPI-Qrcode
