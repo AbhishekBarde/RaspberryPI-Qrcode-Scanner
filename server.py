@@ -2,7 +2,7 @@ import cv2
 from pyzbar.pyzbar import decode
 import socket
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
-s.bind(('127.0.0.1',5000))
+s.bind(('127.0.0.1',3000))
 s.listen(15)
 conn,addr = s.accept()
 print(addr)
