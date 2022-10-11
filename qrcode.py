@@ -1,7 +1,7 @@
 import cv2
 from pyzbar.pyzbar import decode
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 font=cv2.FONT_HERSHEY_PLAIN
 
 while(True):
