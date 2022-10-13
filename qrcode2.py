@@ -3,7 +3,7 @@ from pyzbar.pyzbar import decode
 
 def scan():
     cap = cv2.VideoCapture(1)
-    i=0
+    i12=0
     while i<1:
         _,frame = cap.read()
 	
